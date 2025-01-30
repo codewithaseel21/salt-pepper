@@ -1,307 +1,702 @@
-/* --------------------first division--------------------- */
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.container-1 {
+* {
+    font-family: Ibrahim;
+}
 
-    gap: 280px;
-    font-size: 4rem;
+/* #1 */
+
+@font-face {
+    font-family: Ibrahim;
+    src: url(fonts/futurak.ttf);
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
 }
 
 .navbar {
-    font-size: 2.4rem;
+    background-color: black;
+    width: 100%;
 }
 
-/* -------------------second division------------------- */
-
-.container-3 {
-
-    margin: 100px;
+.nav-item {
+    display: inline-block;
 }
 
-.text-div3 {
-
-    font-size: 4rem;
+.imgct {
+    display: inline-block;
 }
 
-.saltn-peper {
-
-    font-size: 5rem;
+.dinline1 {
+    display: inline-block;
+    margin-left: 40px;
 }
 
-.para-div3 {
-
-    font-size: 1.5rem;
-    margin-bottom: 4rem;
+.dinline2 {
+    display: inline-block;
 }
 
-.div3-img {
 
-    margin-bottom: 3rem;
-    width: 350px;
+.dinline1>li {
+    color: rgb(255, 255, 255);
+    font-family: nexa;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+    /* justify-content: space-evenly; */
 }
 
-/* -----------------thirdth division------------------- */
+#btn1:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
 
-.img-4 {
+#btn1 {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-family: nexa;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+}
 
+.imgct {
+    margin-left: 120px;
+    margin-top: 15px;
+    margin-bottom: -30px;
+}
+
+/* #2 */
+
+.third {
+    background-color: black;
+    margin-top: -4px;
+    width: 100%;
+}
+
+.third {
+    color: rgb(255, 255, 255);
+    font-family: nexa;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+#h1 {
+    font-family: nexa;
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+
+.imgR {
+    border: 10px solid white;
+    border-radius: 8px;
+    background-color: white;
+    width: 260px;
+    height: 130px;
+    margin: 35px;
+}
+
+
+#btn2:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+#btn2 {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-family: nexa;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 90px;
+    cursor: pointer;
+}
+
+.four {
+    background-color: rgb(25, 25, 25);
+    background-image: url(https://images-beta.tossdown.com/site/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.four {
+    color: white;
+    font-family: nexa;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+#h12 {
+    font-weight: bold;
+    margin-bottom: -30px;
+}
+
+/* #4 */
+
+.fourd-line1 {
+    display: inline-block;
+}
+
+.fourd-line2 {
+    display: inline-block;
+}
+
+.fourd-line1 {
+    color: white;
+    font-family: nexa;
+    font-size: 20px;
+    margin-left: 110px;
+}
+
+
+.fourd-line2 {
+    margin-left: 700px;
+    margin-top: -360px;
     position: absolute;
-    top: 1350px;
-    right: 0;
-}
-
-.container-head-4 {
-
-    margin-top: 8rem;
-    margin-bottom: 4rem;
-}
-
-.container-4 {
-
-    gap: 4rem;
-}
-
-.parent-4 {
-
-    gap: 27rem;
-}
-
-.faisalabad {
-
-    gap: 3.5rem;
-}
-
-.para-4 {
-
-    font-size: 5rem;
 
 }
 
-.p4 {
-    font-size: 1.6rem;
+.fourimg {
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 50px;
+
 }
 
-.islamabad {
-
-    font-size: 1.3rem;
-    letter-spacing: 0.6rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
+#h51 {
+    color: #ffec00;
+    letter-spacing: 5px;
 }
 
-.islamabad-saltn-peper {
-
-    font-size: 3rem;
+.fourd-line3,
+.fourd-line4 {
+    display: inline-block;
 }
 
-.islamabad-restaurant {
-
-    font-size: 3rem;
-    margin: 1rem 0rem;
+.fourd-line3 {
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 90px;
 }
 
-.adress {
+#h52 {
+    color: #ffec00;
+    letter-spacing: 5px;
+}
 
-    font-size: 1.5rem;
-    word-spacing: 0.2rem;
-    line-height: 3rem;
+.fourd-line4 {
+    color: white;
+    font-family: nexa;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+#btn3:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+#btn3 {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-family: nexa;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn3 {
+    margin-left: 110px;
+    margin-top: 25px;
+}
+
+#btn4 {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-family: nexa;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#btn4:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.btn4 {
+    position: relative;
+}
+
+#btn4 {
+    position: absolute;
+    top: -175px;
+    left: 695px;
+    cursor: pointer;
+
+}
+
+/* #5 */
+
+.five {
+    background-color: black;
+    width: 100%;
+    background-image: url(https://images-beta.tossdown.com/site/5c3e9532-2fd4-4458-9d20-fa3b8b7f0c28.webp);
+
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.five {
+    color: white;
+    font-family: nexa;
+    font-size: 20px;
+}
+
+#h21 {
+    margin-top: 0px;
+    margin-bottom: -30px;
+    font-weight: bold;
+}
+
+.fived-inline1>ul>li {
+    display: inline-block;
+}
+
+.fiveimg {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 50px;
+    border: 0px white solid;
+    border-radius: 8px;
+}
+
+.img1,
+.img2,
+.img3 {
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+#h22 {
+    margin-bottom: -15px;
+    font-weight: bold;
+}
+
+#h52 {
+    margin-bottom: -20px;
+}
+
+.fived-inline2>ul>li {
+    display: inline-block;
+}
+
+.fiveimg4,
+.fivedimg5 {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 50px;
+    border: 0px white solid;
+    border-radius: 8px;
+}
+
+.img4,
+.img5 {
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+/* #6 */
+
+.six {
+    background-color: rgb(25, 25, 25);
+    margin-top: -25px;
+}
+
+.sixcnt {
+    color: white;
+    font-family: nexa;
+    font-size: 20px;
+}
+
+.sixd-inline1,
+.sixd-inline2 {
+    display: inline-block;
+}
+
+.sixd-inline1>img {
+    border: 0px solid white;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.sixd-inline2 {
+    color: white;
+    font-family: nexa;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 65px;
+    position: absolute;
+}
+
+.seven {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin-top: -25px;
+}
+
+.seven {
+    color: white;
+    font-family: nexa;
+    font-size: 20px;
+}
+
+#h44,
+#h11 {
+    display: inline-block;
+}
+
+#h44 {
+    margin-left: 20px;
+}
+
+.column1,
+.column2,
+.column3 {
+    display: inline-block;
+}
+
+.column1 {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.column2 {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.column3 {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.column4,
+.column5,
+.column6 {
+    display: inline-block;
+}
+
+.column4 {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
+
+}
+
+.column5 {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
+    margin-right: 35px;
+    margin-left: 35px;
 }
 
 
-.icon {
+.column6 {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
 
-    font-size: 1.5rem;
 }
 
-.div-4 {
-    margin: 4rem;
+.column7,
+.column8,
+.column9 {
+    display: inline-block;
 }
 
-/* --------------------fourth division------------------ */
+.column7 {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
+    margin-top: 30px;
+}
 
-.container-5 {
+.column8 {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
 
+.column9 {
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 350px;
+    height: 230px;
+    margin-top: 30px;
+}
+
+.column1>p,
+.column2>p,
+.column3>p,
+.column4>p,
+.column5>p,
+.column6>p,
+.column7>p,
+.column8>p,
+.column9>p {
+    color: black;
+    font-family: nexa;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0px;
+}
+
+.column1>img,
+.column2>img,
+.column3>img,
+.column4>img,
+.column5>img,
+.column6>img,
+.column7>img,
+.column8>img,
+.column9>img {
+    padding: 0px 0px 0px 0px;
+}
+
+#sevencnt {
+    color: white;
+    font-family: nexa;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+/* .sevenimg1,.sevenimg2,.sevenimg3,.sevenimg4,.sevenimg5{
+    border: 0px solid white;
+    border-radius: 8px;
+} */
+
+.sevenimg1 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sevenimg2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sevenimg3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sevenimg4 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sevenimg5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: rgb(25, 25, 25);
+    width: 100%;
+    background-image: url(Images/bgfour.webp);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.footerimg>img {
+    margin-top: 70px;
+}
+
+.footerpara {
+    width: 500px;
+}
+
+.footerpara>p {
+    color: white;
+    font-family: nexa;
+    font-size: 15px;
+    margin-left: 123px;
+    margin-top: 70px;
+    text-align: justify;
+}
+
+.footerpolicy>h3 {
+    margin-top: 100px;
+    margin-left: 123px;
+    color: white;
+    font-family: nexa;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#h31,
+#h32 {
+    display: inline-block;
+}
+
+#h32 {
+    margin-left: 95px;
+}
+
+.footercol1>ul>li {
+    color: white;
+    font-family: nexa;
+    font-size: 15px;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+
+
+.footercol2>ul>li {
+    color: white;
+    font-family: nexa;
+    font-size: 15px;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.footercol1,
+.footercol2,
+.footercol3 {
+    display: inline-block;
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 400px;
+}
+
+#h24 {
+    color: white;
+    font-family: nexa;
+    font-size: 20px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+#h25 {
+    color: white;
+    font-family: futurak;
+    font-size: 20px;
+    margin-left: 400px;
+    font-weight: bold;
+}
+
+#h26 {
+    color: white;
+    font-family: nexa;
+    font-size: 20px;
+    margin-left: 795px;
+    font-weight: bold;
+}
+
+.footercol3img {
+    margin-left: 800px;
     margin-top: 10px;
 }
 
-.bg-img-5 {
-    position: absolute;
-    margin-top: 1rem;
+#footercol3img {
+    margin-top: 55px;
+    display: inline-block;
 }
 
-.parent-5 {
-
-    font-size: 3rem;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-}
-
-.sargodha {
-
-    font-size: 1.4rem;
-    letter-spacing: 0.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.para-5 {
-
-    font-size: 2.5rem;
-}
-
-.adress-5 {
-
-    font-size: 1.6rem;
-    font-weight: 100;
-    margin-bottom: 2rem;
-}
-
-.child-text-5 {
-
-    line-height: 40px;
-}
-
-.Express {
-
-    gap: 3rem;
-    line-height: 0.5rem;
-}
-
-.Express-2 {
-
-    line-height: 2.5rem;
-
-}
-
-.Directions {
-
-    margin-top: 4rem;
+.footericn {
+    margin-left: 770px;
+    display: flex;
+    gap: -15px;
 }
 
 
-/* ---------------------fifth division----------------- */
-
-.container-6 {
-
-    padding: 2rem 0rem;
+.line {
+    margin-top: 100px;
 }
 
-.line-hei {
-
-    line-height: 2.5rem;
+#endheading1,
+#endheading2 {
+    font-family: nexa;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
 }
 
-.para-6 {
-
-    margin-bottom: 3rem;
+#endheading1 {
+    margin-left: 123px;
+    letter-spacing: 2px;
 }
 
-.green-btn {
-
-    margin-top: 6rem;
+#endheading2 {
+    margin-left: 367px;
+    letter-spacing: 2px;
 }
-
-.img-div-5 {
-
-    margin-bottom: 4rem;
-}
-
-/* ---------------------------sixth division------------ */
-
-.child-7 {
-    border: 1px solid #ffffff;
-    border-radius: 3px;
-    width: 400px;
-    height: 250px;
-    line-height: 3rem;
-}
-
-.img-7 {
-    margin-top: 20px;
-}
-
-.small-7 {
-    letter-spacing: 6px;
-}
-
-.grand-child-7 {
-
-    letter-spacing: 0.5px;
-}
-
-/* Social Feed */
-
-.social-feed {
-    font-family: 'Arial Narrow Bold', sans-serif;
-}
-
-.parent-7-div-5 {
-
-    margin-top: 50px;
-}
-
-.img-7-div-6 {
-    margin-bottom: 40px;
-}
-
-/* ---------------------seventh division------------------ */
-
-.container-8 {
-    margin: 0rem 18rem;
-    gap: 2rem;
-}
-
-.parent-8 {
-
-    margin: 8rem 0rem;
-}
-
-.width-8 {
-
-    width: 400px;
-}
-
-.width-8-div-3 {
-
-    width: 250px;
-}
-
-.para-8 {
-    line-height: 2rem;
-    font-size: 1.5rem;
-}
-
-.img-8 {
-
-    position: absolute;
-    left: 4rem;
-    top: 7210px;
-}
-
-.head-8 {
-    font-size: 1.6rem;
-}
-
-.site-link {
-    font-size: 1.4rem;
-}
-
-.contact {
-    width: 25%;
-}
-
-.head-office {
-    font-size: 1.6rem;
-}
-
-/* ---------------------eighth division---------------- */
-
-.children-9 {
-
-    margin: 10px;
-
-}
-
-.parent-9 {
-
-    gap: 800px;
-    font-size: 2.2rem;
-}
-
